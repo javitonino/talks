@@ -1,0 +1,10 @@
+appdaemon:
+  time_zone: Europe/Madrid
+  latitude: 40.3182433
+  longitude: -3.7943256
+  elevation: 657
+  plugins:
+    HASS:
+      type: hass
+      ha_url: http://ada.lan
+      token: !secret token

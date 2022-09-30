@@ -1,0 +1,15 @@
+SleepWellParents:
+  module: sleep_well_app
+  class: SleepWell
+  switch: switch.enchufe_3_on_off
+  bed_time: "00:00:00"
+  wake_up_time: "08:30:00"
+
+SleepWellKids:
+  module: sleep_well_app
+  class: SleepWell
+  switch: switch.enchufe_4_on_off
+  bed_time: "21:00:00"
+  wake_up_time: "08:30:00"
+
+
